@@ -15,8 +15,18 @@
 </head>
 <body>
     
-
-
+    <!-- VUE APP -->
+    <div id="app">
+        <!-- TITLE -->
+        <header class="header-app">
+            <h1>{{title}}</h1>
+        </header>
+        <!-- IMG -->
+        <section class="main-app">
+            <p>{{message}}</p>
+            <img :src="image" :alt="imageText">
+        </section>
+    </div>
 
 
 
